@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 50vh;
+    background-image: url('../css/images/pic.JPG')  ;
+    size:screen()
+    /* background-repeat: no-repeat; */
+}
+
+.pix img{
+    width: 200px;
+    height: 200px;
+    border-radius: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 700px; */
+}
+.container{
+    /* margin: 200px; */
+    align-content: center;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+.navbar input{
+    width: 60px;
+    height:30px ;
+    margin: 10px;
+    background-color: rgb(171, 100, 100);
+}
+
+.port1{
+padding: 60px;
+font-size: 30px;
+/* margin: 40px; */
+text-align: center;
+}
+.port2{
+    font-size: 40px;
+    margin-left: 50px;
+    text-align: center;
+}
+input{
+    width: 150px;
+    height:50px;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
